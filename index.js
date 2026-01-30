@@ -16,7 +16,7 @@ const k2 = `Y-SPxykAK`;
 const k3 = `wc7pdOc`;
 const k4 = `0RGLnDO`;
 const k5 = `BlnKmRa6A`;
-const API_KEY = k1 + k2 + k3 + k4 + k5;
+const API_KEY = (k1 + k2 + k3 + k4 + k5).trim();
 
 // --- CONSTANTES ---
 const PREDEFINED_ACCESSORIES = [
