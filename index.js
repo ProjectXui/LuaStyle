@@ -77,7 +77,7 @@ async function generateTryOnImages(personBase64, clothingBase64, accessories = [
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-1.5-flash-latest',
       contents: {
         parts: [
           { inlineData: { data: personData, mimeType: 'image/jpeg' } },
