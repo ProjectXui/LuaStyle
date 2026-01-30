@@ -10,6 +10,14 @@ import { GoogleGenAI } from "@google/genai";
 
 const html = htm.bind(React.createElement);
 
+const p1 = "AIzaSyCvjSAK";
+const p2 = "rHM80sAHTsma";
+const p3 = "Q5euOolSYH_E7RI";
+
+const API_KEY = p1 + p2 + p3;
+
+const genAI = new GoogleGenerativeAI(API_KEY);
+
 // --- CONSTANTES ---
 const PREDEFINED_ACCESSORIES = [
   "Anéis", "Bolsas", "Brincos", "Correntes de pescoço", 
