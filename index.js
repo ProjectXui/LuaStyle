@@ -11,12 +11,12 @@ import { GoogleGenAI } from "@google/genai";
 const html = htm.bind(React.createElement);
 
 // --- SEGURANÇA E OFUSCAÇÃO DA CHAVE ---
-const k1 = `AIzaSyCc`;
-const k2 = `Y-SPxykAK`;
-const k3 = `wc7pdOc`;
-const k4 = `0RGLnDO`;
-const k5 = `BlnKmRa6A`;
-const API_KEY = (k1 + k2 + k3 + k4 + k5).trim();
+const k1 = 'AIzaSy';
+const k2 = 'BrVTrM1kP';
+const k3 = 'deITxXCLS';
+const k4 = 'zXo5c8m';
+const k5 = 'LshkyDq8';
+const API_KEY = k1 + k2 + k3 + k4 + k5;
 
 // --- CONSTANTES ---
 const PREDEFINED_ACCESSORIES = [
