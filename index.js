@@ -75,9 +75,8 @@ async function generateTryOnImages(personBase64, clothingBase64, accessories = [
     3. COMPOSIÇÃO: Transfira a roupa para a pessoa da imagem 1 com caimento perfeito.${accessoryContext}
   `;
 
-  const model = genAI.getGenerativeModel({ 
-    model: "gemini-1.5-flash" 
-}, { apiVersion: 'v1' });
+const response = await ai.models.generateContent({
+      model: 'gemini-1.5-flash',
       contents: {
         parts: [
           { inlineData: { data: personData, mimeType: 'image/jpeg' } },
